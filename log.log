@@ -1,0 +1,1370 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:
+############## Script - Storage Creation STARTED 
+INFO:root: Date: 12-04-2023_15-45-18
+INFO:root:---------------------------------------------------------------------------
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourcegroups/PythonAzureExample-Storage-rg?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '22'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '1430ba4b-d91b-11ed-a0cf-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-resource/22.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Length': '255'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-request-id': '9744fe43-8615-46fb-a531-47e5d25ae3ae'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Wed, 12 Apr 2023 10:16:30 GMT'
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-Storage-rg/providers/Microsoft.Storage/storageAccounts/pythonazuregems779890?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '76'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '1849bd0d-d91b-11ed-9bfd-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'text/plain; charset=utf-8'
+    'Expires': '-1'
+    'Location': 'REDACTED'
+    'Retry-After': '17'
+    'x-ms-request-id': 'c8628dfc-72ee-442e-95ee-96ed052158fd'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Wed, 12 Apr 2023 10:16:39 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Storage/locations/eastus/asyncoperations/c8628dfc-72ee-442e-95ee-96ed052158fd?monitor=REDACTED&api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '1849bd0d-d91b-11ed-9bfd-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'text/plain; charset=utf-8'
+    'Expires': '-1'
+    'Location': 'REDACTED'
+    'Retry-After': '17'
+    'x-ms-request-id': '4c0b7590-544c-4b05-9bef-43a22c0c3cc5'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Wed, 12 Apr 2023 10:16:40 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Storage/locations/eastus/asyncoperations/c8628dfc-72ee-442e-95ee-96ed052158fd?monitor=REDACTED&api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '1849bd0d-d91b-11ed-9bfd-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'text/plain; charset=utf-8'
+    'Expires': '-1'
+    'Location': 'REDACTED'
+    'Retry-After': '3'
+    'x-ms-request-id': '9f6990a6-6452-4e52-9cfa-6cfd3937aa03'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Wed, 12 Apr 2023 10:16:57 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Storage/locations/eastus/asyncoperations/c8628dfc-72ee-442e-95ee-96ed052158fd?monitor=REDACTED&api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '1849bd0d-d91b-11ed-9bfd-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'text/plain; charset=utf-8'
+    'Expires': '-1'
+    'Location': 'REDACTED'
+    'Retry-After': '3'
+    'x-ms-request-id': 'a068f4e8-67b9-403c-bb8d-f1a6241238af'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Wed, 12 Apr 2023 10:17:01 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Storage/locations/eastus/asyncoperations/c8628dfc-72ee-442e-95ee-96ed052158fd?monitor=REDACTED&api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '1849bd0d-d91b-11ed-9bfd-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': '9c129591-e150-41a8-9b1a-70393a4e0c06'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Wed, 12 Apr 2023 10:17:04 GMT'
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-Storage-rg/providers/Microsoft.Storage/storageAccounts/pythonazuregems779890/blobServices/default/containers/pythongems?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '2'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '2c63ef2d-d91b-11ed-a3e1-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Length': '301'
+    'Content-Type': 'application/json'
+    'Expires': '-1'
+    'ETag': '"0x8DB3B3F11FB00A4"'
+    'x-ms-request-id': '469dadd6-266c-4cd6-b09e-0b5b51526cd4'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Wed, 12 Apr 2023 10:17:07 GMT'
+INFO:root:
+############## Script - Storage Creation ENDED 
+INFO:root:
+############## LOGS at - C:\Users\aman_surkar\Desktop\Cloud Automation\log.log
+INFO:root:---------------------------------------------------------------------------
+INFO:werkzeug:127.0.0.1 - - [12/Apr/2023 15:47:07] "[32mPOST /create_storage HTTP/1.1[0m" 302 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:
+############## Script - Virtual Machine Creation STARTED 
+INFO:root: Date: 13-04-2023_10-01-56
+INFO:root:---------------------------------------------------------------------------
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourcegroups/PythonAzureExample-VM-rg?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '22'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '27036dad-d9b4-11ed-b024-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-resource/22.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Length': '245'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-request-id': 'dc494e04-1817-4845-b09d-f38991d70062'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:32:14 GMT'
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-VM-rg/providers/Microsoft.Network/virtualNetworks/vm-service-vnet?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '92'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '2a9ff1af-d9b4-11ed-a502-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-network/22.2.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Length': '632'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'Retry-After': '3'
+    'x-ms-request-id': 'e7ce30fa-9885-4e13-9c4d-eeb770bfcce5'
+    'azure-asyncoperation': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'azure-asyncnotification': 'REDACTED'
+    'x-ms-arm-service-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0, Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:32:20 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Network/locations/eastus/operations/e7ce30fa-9885-4e13-9c4d-eeb770bfcce5?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '2a9ff1af-d9b4-11ed-a502-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-network/22.2.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Retry-After': '10'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': '75af85f1-03f9-477e-b3db-f003234fa4a6'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-arm-service-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0, Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:32:21 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Network/locations/eastus/operations/e7ce30fa-9885-4e13-9c4d-eeb770bfcce5?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '2a9ff1af-d9b4-11ed-a502-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-network/22.2.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': '3cee9a4c-71be-433a-891a-7b063d440370'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-arm-service-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0, Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:32:31 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-VM-rg/providers/Microsoft.Network/virtualNetworks/vm-service-vnet?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '2a9ff1af-d9b4-11ed-a502-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-network/22.2.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'ETag': 'W/"7e73c717-0033-4f75-bd3e-423e5d658b44"'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': '6e26fc0b-3f50-4675-a892-34b5d271a132'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-arm-service-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0, Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:32:32 GMT'
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-VM-rg/providers/Microsoft.Network/virtualNetworks/vm-service-vnet/subnets/vm-service-subnet?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '48'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '357ca6d2-d9b4-11ed-82a9-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-network/22.2.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Length': '565'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'Retry-After': '3'
+    'x-ms-request-id': '8602baff-b0b0-47c6-ac66-d911544b4714'
+    'azure-asyncoperation': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'azure-asyncnotification': 'REDACTED'
+    'x-ms-arm-service-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0, Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:32:35 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Network/locations/eastus/operations/8602baff-b0b0-47c6-ac66-d911544b4714?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '357ca6d2-d9b4-11ed-82a9-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-network/22.2.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': '104c0a22-b045-466c-92ec-ad5be8a64a6c'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-arm-service-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0, Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:32:35 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-VM-rg/providers/Microsoft.Network/virtualNetworks/vm-service-vnet/subnets/vm-service-subnet?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '357ca6d2-d9b4-11ed-82a9-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-network/22.2.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'ETag': 'W/"19cb5811-95b6-44dd-be4a-503b40c7f5b8"'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': 'c02fb1c0-c3d9-4180-a104-c2d2e7a67a6f'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-arm-service-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0, Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:32:36 GMT'
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-VM-rg/providers/Microsoft.Network/publicIPAddresses/vm-service-ip?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '139'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '376612b7-d9b4-11ed-b6dd-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-network/22.2.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Length': '732'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'Retry-After': '1'
+    'x-ms-request-id': '0307caa2-fcc3-42c0-82fb-81d7113673cf'
+    'azure-asyncoperation': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'azure-asyncnotification': 'REDACTED'
+    'x-ms-arm-service-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0, Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:32:41 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Network/locations/eastus/operations/0307caa2-fcc3-42c0-82fb-81d7113673cf?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '376612b7-d9b4-11ed-b6dd-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-network/22.2.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': 'ca40b935-0bde-4a66-937e-87c3e9638130'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-arm-service-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0, Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:32:41 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-VM-rg/providers/Microsoft.Network/publicIPAddresses/vm-service-ip?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '376612b7-d9b4-11ed-b6dd-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-network/22.2.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'ETag': 'W/"22b564ee-4795-4a6b-84c2-1cd568d95f14"'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': 'c33cd2b7-ddf4-44dc-9633-44691dbfa4a4'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-arm-service-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0, Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:32:42 GMT'
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-VM-rg/providers/Microsoft.Network/networkInterfaces/vm-service-nic?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '491'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '3b425e41-d9b4-11ed-8c0e-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-network/22.2.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Length': '2064'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-request-id': '42b657bb-c326-458b-b12d-4605096492f7'
+    'azure-asyncoperation': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'azure-asyncnotification': 'REDACTED'
+    'x-ms-arm-service-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0, Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:32:47 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Network/locations/eastus/operations/42b657bb-c326-458b-b12d-4605096492f7?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '3b425e41-d9b4-11ed-8c0e-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-network/22.2.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': '117c2f36-bac3-415e-9944-5ce83a14c6bb'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-arm-service-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0, Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:32:47 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-VM-rg/providers/Microsoft.Network/networkInterfaces/vm-service-nic?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '3b425e41-d9b4-11ed-8c0e-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-network/22.2.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'ETag': 'W/"ea292cf3-9022-46ca-93bd-5806a45aeff8"'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': 'a02a10e6-349e-4dbb-97ba-4d97655bd57c'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-arm-service-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0, Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:32:48 GMT'
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-VM-rg/providers/Microsoft.Compute/virtualMachines/azureVM?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '532'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '3ef3698e-d9b4-11ed-89f2-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-compute/29.1.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Length': '1747'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'Retry-After': '10'
+    'Azure-AsyncOperation': 'REDACTED'
+    'Azure-AsyncNotification': 'REDACTED'
+    'x-ms-ratelimit-remaining-resource': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-request-id': '3b400317-2f44-459d-85b4-5d5c74e0a21e'
+    'Server': 'Microsoft-HTTPAPI/2.0, Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:32:56 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Compute/locations/eastus/operations/3b400317-2f44-459d-85b4-5d5c74e0a21e?p=REDACTED&api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '3ef3698e-d9b4-11ed-89f2-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-compute/29.1.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Retry-After': '35'
+    'Vary': 'REDACTED'
+    'x-ms-ratelimit-remaining-resource': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-request-id': '14b7b749-b220-4d97-bd45-ec091091c42a'
+    'Server': 'Microsoft-HTTPAPI/2.0, Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:32:57 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Compute/locations/eastus/operations/3b400317-2f44-459d-85b4-5d5c74e0a21e?p=REDACTED&api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '3ef3698e-d9b4-11ed-89f2-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-compute/29.1.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Vary': 'REDACTED'
+    'x-ms-ratelimit-remaining-resource': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-request-id': '222f6de1-9f68-4038-905a-1a9375a5b884'
+    'Server': 'Microsoft-HTTPAPI/2.0, Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:33:32 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-VM-rg/providers/Microsoft.Compute/virtualMachines/azureVM?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '3ef3698e-d9b4-11ed-89f2-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-compute/29.1.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Vary': 'REDACTED'
+    'x-ms-ratelimit-remaining-resource': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-request-id': '88dd851d-98ba-4192-99ce-00c900e44530'
+    'Server': 'Microsoft-HTTPAPI/2.0, Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:33:32 GMT'
+INFO:root:
+############## Script - Virtual Machine Creation ENDED 
+INFO:root:
+############## LOGS at - C:\Users\aman_surkar\Desktop\Cloud Automation\log.log
+INFO:root:---------------------------------------------------------------------------
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2023 10:03:33] "[32mPOST /create_VirtualM HTTP/1.1[0m" 302 -
+INFO:root:
+############## Script - Storage Creation STARTED 
+INFO:root: Date: 13-04-2023_10-01-56
+INFO:root:---------------------------------------------------------------------------
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourcegroups/PythonAzureExample-Storage-rg?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '22'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '7e2ccb59-d9b4-11ed-b6af-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-resource/22.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Length': '255'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-request-id': '403fe40f-c801-4ada-a807-60283a2781a2'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:34:39 GMT'
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-Storage-rg/providers/Microsoft.Storage/storageAccounts/pythonazuregems779890?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '76'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '811e245c-d9b4-11ed-b428-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'text/plain; charset=utf-8'
+    'Expires': '-1'
+    'Location': 'REDACTED'
+    'Retry-After': '17'
+    'x-ms-request-id': '66744ac0-8ee3-4874-a0ea-21a68b54619c'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:34:46 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Storage/locations/eastus/asyncoperations/66744ac0-8ee3-4874-a0ea-21a68b54619c?monitor=REDACTED&api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '811e245c-d9b4-11ed-b428-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'text/plain; charset=utf-8'
+    'Expires': '-1'
+    'Location': 'REDACTED'
+    'Retry-After': '17'
+    'x-ms-request-id': 'e405d37f-1db4-4e59-8f75-a6b1248eb354'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:34:47 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Storage/locations/eastus/asyncoperations/66744ac0-8ee3-4874-a0ea-21a68b54619c?monitor=REDACTED&api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '811e245c-d9b4-11ed-b428-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'text/plain; charset=utf-8'
+    'Expires': '-1'
+    'Location': 'REDACTED'
+    'Retry-After': '3'
+    'x-ms-request-id': '3990b6f9-8d9c-463f-8838-505c2db4c048'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:35:05 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Storage/locations/eastus/asyncoperations/66744ac0-8ee3-4874-a0ea-21a68b54619c?monitor=REDACTED&api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '811e245c-d9b4-11ed-b428-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'text/plain; charset=utf-8'
+    'Expires': '-1'
+    'Location': 'REDACTED'
+    'Retry-After': '3'
+    'x-ms-request-id': '5dc49bbb-7763-4d97-a606-0e938d3a8ee2'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:35:08 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Storage/locations/eastus/asyncoperations/66744ac0-8ee3-4874-a0ea-21a68b54619c?monitor=REDACTED&api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '811e245c-d9b4-11ed-b428-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': 'dcccc1dd-aee0-4a6a-a879-d733de5da0f9'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:35:11 GMT'
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-Storage-rg/providers/Microsoft.Storage/storageAccounts/pythonazuregems779890/blobServices/default/containers/pythongems?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '2'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '941648e0-d9b4-11ed-8bde-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 404
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Length': '180'
+    'Content-Type': 'application/json'
+    'Expires': '-1'
+    'x-ms-request-id': 'dd538d48-6ea5-490e-8a93-f02fad2fb4af'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:35:14 GMT'
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2023 10:05:14] "[32mPOST /create_storage HTTP/1.1[0m" 302 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:
+############## Script - Storage Creation STARTED 
+INFO:root: Date: 13-04-2023_10-09-55
+INFO:root:---------------------------------------------------------------------------
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourcegroups/PythonAzureExample-Storage-rg?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '22'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': 'e2069110-d9b6-11ed-b131-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-resource/22.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Length': '255'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-request-id': 'd3841844-02d7-443b-ae4a-f2110544ac00'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:51:45 GMT'
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-Storage-rg/providers/Microsoft.Storage/storageAccounts/pythonazuregems779890?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '76'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': 'e4a3c1cb-d9b6-11ed-ae6f-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'text/plain; charset=utf-8'
+    'Expires': '-1'
+    'Location': 'REDACTED'
+    'Retry-After': '17'
+    'x-ms-request-id': 'a321b001-a854-4d35-b944-ddd0b8b78523'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:51:53 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Storage/locations/eastus/asyncoperations/a321b001-a854-4d35-b944-ddd0b8b78523?monitor=REDACTED&api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'e4a3c1cb-d9b6-11ed-ae6f-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'text/plain; charset=utf-8'
+    'Expires': '-1'
+    'Location': 'REDACTED'
+    'Retry-After': '17'
+    'x-ms-request-id': '5e1cca0c-0353-4d7e-a32f-d9e5b8ebb08d'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:51:53 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Storage/locations/eastus/asyncoperations/a321b001-a854-4d35-b944-ddd0b8b78523?monitor=REDACTED&api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'e4a3c1cb-d9b6-11ed-ae6f-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'text/plain; charset=utf-8'
+    'Expires': '-1'
+    'Location': 'REDACTED'
+    'Retry-After': '3'
+    'x-ms-request-id': '1ff93034-3dcc-41e4-adcc-e708e77cc173'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:52:11 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Storage/locations/eastus/asyncoperations/a321b001-a854-4d35-b944-ddd0b8b78523?monitor=REDACTED&api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'e4a3c1cb-d9b6-11ed-ae6f-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'text/plain; charset=utf-8'
+    'Expires': '-1'
+    'Location': 'REDACTED'
+    'Retry-After': '3'
+    'x-ms-request-id': '66d437bc-e367-4734-a527-4982237bd5be'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:52:14 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.Storage/locations/eastus/asyncoperations/a321b001-a854-4d35-b944-ddd0b8b78523?monitor=REDACTED&api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'e4a3c1cb-d9b6-11ed-ae6f-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': 'f8cd8feb-d6c0-414a-b464-340b3e1dc5cb'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:52:17 GMT'
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-Storage-rg/providers/Microsoft.Storage/storageAccounts/pythonazuregems779890/blobServices/default/containers/pythongems?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '2'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': 'f7e105f0-d9b6-11ed-8b58-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-storage/21.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Length': '301'
+    'Content-Type': 'application/json'
+    'Expires': '-1'
+    'ETag': '"0x8DB3BDADD83C3CF"'
+    'x-ms-request-id': 'a313ccb1-f471-4f06-a886-7f57528dff81'
+    'Strict-Transport-Security': 'REDACTED'
+    'Server': 'Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:52:20 GMT'
+INFO:root:
+############## Script - Storage Creation ENDED 
+INFO:root:
+############## LOGS at - C:\Users\aman_surkar\Desktop\Cloud Automation\log.log
+INFO:root:---------------------------------------------------------------------------
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2023 10:22:21] "[32mPOST /create_storage HTTP/1.1[0m" 302 -
+INFO:root:
+############## Script - Database Creation STARTED 
+INFO:root: Date: 13-04-2023_10-09-55
+INFO:root:---------------------------------------------------------------------------
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourcegroups/PythonAzureExample-Database-rg?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '22'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '12e458a2-d9b7-11ed-bd51-a02919651aa3'
+    'User-Agent': 'azsdk-python-azure-mgmt-resource/22.0.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Length': '257'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-request-id': '1a28e493-fd5c-4c2a-880d-356f9d4ef41a'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:53:07 GMT'
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-Database-rg/providers/Microsoft.DBforMySQL/servers/amansurkar77?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '160'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '1578584b-d9b7-11ed-ad38-a02919651aa3'
+    'User-Agent': 'azsdk-python-mgmt-rdbms/10.1.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Length': '73'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'Location': 'REDACTED'
+    'Retry-After': '60'
+    'Azure-AsyncOperation': 'REDACTED'
+    'x-ms-request-id': 'cda8d4ba-4389-4d69-ac88-4d99d6de001f'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:53:13 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.DBforMySQL/locations/eastus/azureAsyncOperation/cda8d4ba-4389-4d69-ac88-4d99d6de001f?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '1578584b-d9b7-11ed-ad38-a02919651aa3'
+    'User-Agent': 'azsdk-python-mgmt-rdbms/10.1.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Retry-After': '60'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': '623f706a-e0ca-432a-9a92-37d681f10035'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:53:14 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.DBforMySQL/locations/eastus/azureAsyncOperation/cda8d4ba-4389-4d69-ac88-4d99d6de001f?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '1578584b-d9b7-11ed-ad38-a02919651aa3'
+    'User-Agent': 'azsdk-python-mgmt-rdbms/10.1.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Retry-After': '60'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': 'db73118d-d513-44cc-9349-1140583511bd'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:54:14 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.DBforMySQL/locations/eastus/azureAsyncOperation/cda8d4ba-4389-4d69-ac88-4d99d6de001f?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '1578584b-d9b7-11ed-ad38-a02919651aa3'
+    'User-Agent': 'azsdk-python-mgmt-rdbms/10.1.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Retry-After': '60'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': '0ccdcfab-34dc-4fc8-85c3-1fcd13e3af92'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:55:16 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-Database-rg/providers/Microsoft.DBforMySQL/servers/amansurkar77?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '1578584b-d9b7-11ed-ad38-a02919651aa3'
+    'User-Agent': 'azsdk-python-mgmt-rdbms/10.1.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': 'c4712641-a291-4e6a-bfaf-f1faf0f63092'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:55:17 GMT'
+INFO:azure.identity._internal.decorators:AzureCliCredential.get_token succeeded
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-Database-rg/providers/Microsoft.DBforMySQL/servers/amansurkar77/databases/amansurkardb?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '2'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '628eed17-d9b7-11ed-b9cb-a02919651aa3'
+    'User-Agent': 'azsdk-python-mgmt-rdbms/10.1.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Length': '82'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'Location': 'REDACTED'
+    'Retry-After': '15'
+    'Azure-AsyncOperation': 'REDACTED'
+    'x-ms-request-id': 'b6620125-bbda-4406-9624-d2d2b90ba0ba'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-writes': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:55:19 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.DBforMySQL/locations/eastus/azureAsyncOperation/b6620125-bbda-4406-9624-d2d2b90ba0ba?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '628eed17-d9b7-11ed-b9cb-a02919651aa3'
+    'User-Agent': 'azsdk-python-mgmt-rdbms/10.1.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Retry-After': '15'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': '43c8351e-ce4a-4259-bd0d-6f683206ab55'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:55:20 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.DBforMySQL/locations/eastus/azureAsyncOperation/b6620125-bbda-4406-9624-d2d2b90ba0ba?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '628eed17-d9b7-11ed-b9cb-a02919651aa3'
+    'User-Agent': 'azsdk-python-mgmt-rdbms/10.1.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Retry-After': '15'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': 'a472918e-6ecd-4793-b988-1ae670c6dee3'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:55:35 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.DBforMySQL/locations/eastus/azureAsyncOperation/b6620125-bbda-4406-9624-d2d2b90ba0ba?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '628eed17-d9b7-11ed-b9cb-a02919651aa3'
+    'User-Agent': 'azsdk-python-mgmt-rdbms/10.1.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Retry-After': '15'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': '32f03676-515a-4566-98fb-ab4d35b3f66b'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:55:50 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/providers/Microsoft.DBforMySQL/locations/eastus/azureAsyncOperation/b6620125-bbda-4406-9624-d2d2b90ba0ba?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '628eed17-d9b7-11ed-b9cb-a02919651aa3'
+    'User-Agent': 'azsdk-python-mgmt-rdbms/10.1.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Retry-After': '15'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': 'beed2f64-2066-4d47-b5ee-213c41268f93'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:56:06 GMT'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://management.azure.com/subscriptions/ac85d349-f51a-4dc0-b771-096e967ad3fb/resourceGroups/PythonAzureExample-Database-rg/providers/Microsoft.DBforMySQL/servers/amansurkar77/databases/amansurkardb?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '628eed17-d9b7-11ed-b9cb-a02919651aa3'
+    'User-Agent': 'azsdk-python-mgmt-rdbms/10.1.0 Python/3.10.7 (Windows-10-10.0.22000-SP0)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Expires': '-1'
+    'Vary': 'REDACTED'
+    'x-ms-request-id': 'f1702c88-6789-4777-9b09-4430e8707d5f'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'x-ms-ratelimit-remaining-subscription-reads': 'REDACTED'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 13 Apr 2023 04:56:07 GMT'
+INFO:root:
+############## Script - Database Creation ENDED 
+INFO:root:
+############## LOGS at - C:\Users\aman_surkar\Desktop\Cloud Automation\log.log
+INFO:root:---------------------------------------------------------------------------
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2023 10:26:07] "[32mPOST /create_database HTTP/1.1[0m" 302 -

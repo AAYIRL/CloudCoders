@@ -1,0 +1,17 @@
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+.nav-hover:hover {
+  color: white;
+}
+
+.nav-hover {
+  margin-top: 15px;
+  font-size: 18px;
+}

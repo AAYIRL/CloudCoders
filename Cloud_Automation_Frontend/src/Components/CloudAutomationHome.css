@@ -1,0 +1,18 @@
+/* /* .center {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/cloud-automation.png");
+  background-attachment: fixed;
+} */
+body {
+  background-color: #242830;
+}
+
+.bodytext {
+  font-family: "Calibri";
+  color: #255aa8;
+  font-size: 45px;
+  margin: auto;
+  padding: 120px 0;
+  width: 50%;
+}
